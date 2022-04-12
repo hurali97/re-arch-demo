@@ -6,6 +6,11 @@ public class Dlog extends NativeDlogSpec {
     private static final String TAG = "Dlog";
     public static final String NAME = "Dlog";
 
+    @Override
+    public String getName() {
+        return NAME;
+    }
+
     public Dlog(ReactApplicationContext context) {
         super(context);
     }
