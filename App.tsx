@@ -26,6 +26,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import NativeDlog from './src/custom-modules/specs/NativeDlog';
 
 const Section: React.FC<{
   title: string;
@@ -61,6 +62,8 @@ const App = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  NativeDlog.log("Hello I am running");
 
   return (
     <SafeAreaView style={backgroundStyle}>

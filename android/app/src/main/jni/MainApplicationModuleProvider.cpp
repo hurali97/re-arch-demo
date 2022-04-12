@@ -17,7 +17,6 @@ std::shared_ptr<TurboModule> MainApplicationModuleProvider(
    if (module != nullptr) {
       return module;
    }
-  // return rncore_ModuleProvider(moduleName, params);
   return rncore_ModuleProvider(moduleName, params);
 }
 
