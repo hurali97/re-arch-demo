@@ -32,13 +32,13 @@ local.properties
 
 # node.js
 #
-node_modules/
-npm-debug.log
-yarn-error.log
+rn-app/node_modules/
+rn-app/npm-debug.log
+rn-app/yarn-error.log
 
 # BUCK
-buck-out/
-\.buckd/
+rn-app/buck-out/
+rn-app\.buckd/
 *.keystore
 !debug.keystore
 
@@ -57,5 +57,5 @@ buck-out/
 *.jsbundle
 
 # Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
+rn-app/ios/Pods/
+rn-app/vendor/bundle/
