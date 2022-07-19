@@ -42,5 +42,14 @@
       "json",
       "node"
     ]
-  }
+  },
+  "codegenConfig": {
+  "libraries": [
+    {
+      "name": "CustomModules",
+      "type": "modules",
+      "jsSrcsDir": "src/custom-modules/specs/"
+    }
+  ]
+}
 }
